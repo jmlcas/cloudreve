@@ -2,6 +2,7 @@
 
 Ir a "localhost:5212"
 
-Usuario: admin@cloudreve.org 
+Luego debe obtener el nombre de usuario y la contraseña de inicio de sesión, para ello ejecute el siguiente comando en la terminal:
 
-Password: Okgh0t5F
+sudo docker logs cloudreve
+
