@@ -1,0 +1,11 @@
+services:
+
+    cloudreve:
+        image: cloudreve/cloudreve:latest    
+        container_name: cloudreve
+        ports:
+            - "5212:5212"
+        restart: unless-stopped
+        volumes:
+            - ./data/uploads:/cloudreve/uploads
+            
